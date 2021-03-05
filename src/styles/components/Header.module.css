@@ -1,0 +1,36 @@
+.headerContainer{
+	height: 4rem;
+	display:flex;
+}
+
+.headerContainer div,.headerContainer nav{
+	justify-content:center;
+	align-items:center;
+	flex:50%;
+}
+
+.headerContainer div{
+	display: flex;
+}
+
+.headerContainer nav{
+	display:flex;
+}
+
+.headerContainer nav ul{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.headerContainer nav ul li{ 
+	padding: 1rem;
+}
+
+.headerContainer h1{
+	color:var(--blue-dark);
+}
+
+.headerContainer h1 span{
+	font-weight: 800;
+	font-style: italic;
+}
