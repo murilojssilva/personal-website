@@ -8,9 +8,10 @@ export function Header() {
 			</div>
 			<nav>
 				<ul>
-					<li><a href="">Sobre</a></li>
-					<li><a href="">Projetos Relevantes</a></li>
-					<li><a href="">Contato</a></li>
+					<li><a href="#about">Sobre</a></li>
+					<li><a href="#apresentation">Apresentação</a></li>
+					<li><a href="#tecnologies">Tecnologias</a></li>
+					<li><a href="#contact">Contato</a></li>
 				</ul>
 			</nav>
 		</div>

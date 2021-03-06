@@ -1,0 +1,35 @@
+.apresentationContainer{
+	min-height: 15rem;
+	background: var(--dark-component);
+	position:relative;
+}
+
+.apresentationContent{
+	max-width: 960px;
+	display: flex;
+	flex-direction: row;
+	margin: 0 auto;
+	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);	
+}
+
+.apresentationContainer h1, .apresentationContainer p{
+	display: flex;
+	flex-direction:column;
+	text-align: center;
+	justify-content: center;
+	margin: 0 auto;
+	color: var(--white);
+}
+
+.apresentationContainer h1{
+	font-size: 2.5rem;
+}
+
+@media (max-width: 768px){
+	.apresentationContainer{
+		display: grid;
+	}
+}

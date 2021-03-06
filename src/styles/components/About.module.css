@@ -16,17 +16,23 @@
 	flex:50%;
 }
 
-.aboutContainer p,.aboutContainer h1{
+.aboutContainer h1,.aboutContainer h2,.aboutContainer h3{
 	color:var(--dark-background);
+	text-align:center;
 }
 
 .aboutContainer h1{
 	font-size: 3rem;
 	font-weight:800;
 	line-height:10rem;
+	
 }
 
-.aboutContainer p{
+.aboutContainer h2{
+	font-size: 2rem;
+}
+
+.aboutContainer h3{
 	font-size: 1.5rem;
 }
 
